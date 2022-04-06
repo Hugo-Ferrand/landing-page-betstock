@@ -1,3 +1,10 @@
+.link {
+  color: #2cc41b;
+  &:hover {
+    color: #7CEB6F;
+  }
+}
+
 .section {
   margin-top: 60px;
 }
@@ -33,13 +40,14 @@
 }
 
 .banner {
+  height: 100vh;
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 90px;
-  padding-bottom: 500px;
+  // padding-top: 90px;
+  // padding-bottom: 500px;
 }
 
 .banner h1 {
@@ -81,22 +89,18 @@
   color: white;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #1EDD88;
+  background: #2cc41b;
   transition: background 0.3s ease;
+  &:hover {
+    background-color: #7CEB6F;
+    color: white;
+  }
 }
 
-.btn-flat-second {
-  color: white;
-  padding: 2px 8px;
-  border-radius: 4px;
-  background: #1EDD88;
-  transition: background 0.3s ease;
-}
-
-.btn-flat:hover {
-  background: #1BCB7F;
-  color: white;
-}
+// .btn-flat:hover {
+//   background: #1BCB7F;
+//   color: white;
+// }
 
 .btn-gradient {
   color: white;
@@ -115,10 +119,10 @@
 
 a {
   text-decoration: none !important;
-  color: black;
-  &:hover {
-    color: black;
-  }
+//   color: black;
+//   &:hover {
+//     color: black;
+//   }
 }
 
 .content {
