@@ -1,7 +1,7 @@
 .link {
-  color: #2cc41b;
+  color: white;
   &:hover {
-    color: #7CEB6F;
+    color: #2cc41b;
   }
 }
 
@@ -86,14 +86,14 @@
 }
 
 .btn-flat-first {
-  color: white;
+  color: black;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #2cc41b;
+  background: white;
   transition: background 0.3s ease;
   &:hover {
-    background-color: #7CEB6F;
-    color: white;
+    background-color: white;
+    color: #2cc41b;
   }
 }
 
