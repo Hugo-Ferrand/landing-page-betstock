@@ -1,9 +1,19 @@
-<div class="banner" style="background-image: url(<%= image_path('background.jpg') %>)">
-  <div class="container">
-  <%= link_to "< Retour", root_path, :class => "link" %>
-  <p>aaa aaaa aaaa</p>
-  <p>aaa aaaa aaaa</p>
-  <p>aaa aaaa aaaa</p>
-  <p>aaa aaaa aaaa</p>
+<div class="bannerclassement" style="background-image: url(<%= image_path('background.jpg') %>)">
+  <div class="contourclassement">
+    <br>
+    <%= link_to "<Retour", root_path, :class => "linkretour" %>
   </div>
+  <br>
+  <br>
+  <div class="linkclassement">
+    <br>
+    <pre><strong> Rang</strong>      <strong>Pseudo Insta</strong>          <strong>Nb points</strong></pre>
+  </div>
+  <% @users.each do |user| %>
+    <ul>
+      <%= user.ranking %>
+      <%= user.pseudo %>
+      <%= user.wins %>
+    </ul>
+  <% end %>
 </div>

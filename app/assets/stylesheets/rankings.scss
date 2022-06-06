@@ -1,3 +1,266 @@
-// Place all the styles related to the rankings controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+// // Place all the styles related to the rankings controller here.
+// // They will automatically be included in application.css.
+// // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.bannerhome {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding-top: 90px;
+  // padding-bottom: 30px;
+}
+
+.bannerhome .containerhome {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-flat-first-home {
+  color: black;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: white;
+  transition: background 0.3s ease;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.linkhome {
+  color: white;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.linkclassement {
+  color: white;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  text-decoration: none;
+}
+
+.linkretour {
+  color: #1c3673;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  text-decoration: none;
+}
+
+
+.bannerclassement {
+  height: 210vh;
+  background-size: cover;
+  background-position: center;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding-top: 90px;
+  // padding-bottom: 30px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: white;
+}
+
+.contourclassement {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+h1 {
+  color: red;
+}
+
+// hr {
+//   color: white;
+// }
+
+// .link {
+//   position: fixed;
+//   background-color: white;
+//   width: 120%;
+//   a {
+//     color: blue;
+//   }
+// }
+
+// .banner {
+//   height: 200vh;
+//   // background-size: cover;
+//   background-position: center;
+//   display: flex;
+//   justify-content: center;
+//   // align-items: center;
+//   // padding-top: 90px;
+//   padding-bottom: 30px;
+// }
+
+// .banner h1 {
+//   margin: 0;
+//   margin-bottom: 32px;
+//   color: red;
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+//   font-size: 45px;
+//   font-weight: bold;
+// }
+
+// .banner p {
+//   font-family: var(--bs-body-font-family);
+//   font-size: var(--bs-body-font-size);
+//   font-weight: var(--bs-body-font-weight);
+//   line-height: var(--bs-body-line-height);
+//   color: white;
+//   margin-bottom: 32px;
+// }
+
+// .banner strong {
+//   font-family: var(--bs-body-font-family);
+//   // font-size: var(--bs-body-font-size);
+//   // font-weight: var(--bs-body-font-weight);
+//   // line-height: var(--bs-body-line-height);
+//   color: white;
+//   // margin-bottom: 32px;
+// }
+
+
+
+
+
+
+// .section {
+//   margin-top: 60px;
+// }
+
+// .section > h2 {
+//   margin-bottom: 60px;
+// }
+
+// .fs-24 {
+//     font-size: 24px;
+// }
+
+// .icon {
+//   border-radius: 50%;
+//   width: 170px;
+//   height: 170px;
+//   margin: 30px auto;
+//   padding: 50px;
+//   background-color: $green;
+//   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .icon:hover {
+//   // background-color: $green-hover;
+//   transition: 0.3s ease;
+// }
+
+// .icon img {
+//   margin-top: 15px;
+// }
+
+
+
+// .bannerhome h1 {
+//   margin: 0;
+//   margin-bottom: 32px;
+//   color: white;
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+//   font-size: 45px;
+//   font-weight: bold;
+// }
+
+// .bannerhome p {
+//   font-size: 20px;
+//   color: white;
+//   // opacity: .7;
+//   // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+//   margin-bottom: 32px;
+// }
+
+// // .banner .container {
+// //   text-align: center;
+// // }
+
+// .btn-ghost {
+//   color: #4A4A4A;
+//   border: 1px solid #4A4A4A;
+//   padding: 8px 24px;
+//   border-radius: 50px;
+//   font-weight: lighter;
+//   opacity: 0.6;
+//   transition: opacity 0.3s ease;
+// }
+
+// .btn-ghost:hover {
+//   opacity: 1;
+// }
+
+
+
+// // .btn-flat:hover {
+// //   background: #1BCB7F;
+// //   color: white;
+// // }
+
+// .btn-gradient {
+//   color: white;
+//   padding: 8px 24px;
+//   border-radius: 4px;
+//   font-weight: bold;
+//   background: linear-gradient(#167FFB, #0F60C4);
+//   transition: background 0.3s ease;
+//   border: 1px solid #0F60C4;
+// }
+
+// .btn-gradient:hover {
+//   background: linear-gradient(#147EFF, #0F67DA);
+//   color: white;
+// }
+
+// a {
+//   text-decoration: none !important;
+// //   color: black;
+// //   &:hover {
+// //     color: black;
+// //   }
+// }
+
+// .content {
+//   min-height: calc(100vh - 100px);
+// }
+//  .pt-30 {
+//   padding-top: 30px;
+//  }
