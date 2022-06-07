@@ -1,5 +1,4 @@
 class RankingsController < ApplicationController
-  VOWELS = %w(A E I O U Y)
 
   def home
     @users = User.all

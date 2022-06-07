@@ -9,13 +9,14 @@
   <br>
   <div class="linkclassement">
     <br>
-    <pre><strong> Rang</strong>      <strong>Pseudo Insta</strong>          <strong>Nb points</strong></pre>
+    <p>Nombre de parieurs au <%= Date.today.strftime('%d/%m') %> : 200</p>
+    <pre><strong> Rang</strong>      <strong>Nb points</strong>      <strong>Pseudo Insta</strong></pre>
   </div>
   <% @users.each do |user| %>
     <ul>
-      <%= user.ranking %>
-      <%= user.pseudo %>
-      <%= user.wins %>
+        <%= user.ranking %>
+        <%= user.wins %>
+        <%= user.pseudo %>
     </ul>
   <% end %>
 </div>
