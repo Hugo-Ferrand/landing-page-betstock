@@ -2,6 +2,16 @@
 // // They will automatically be included in application.css.
 // // You can use Sass (SCSS) here: https://sass-lang.com/
 
+.form-control {
+  background-color: white;
+  margin-right: 10px;
+  // width: 100px;
+}
+
+.formhome {
+  display: flex;
+}
+
 .bannerhome {
   height: 100vh;
   background-size: cover;
@@ -72,6 +82,7 @@
 
 .fa-instagram {
   color: white;
+
 }
 
 .linkclassement {
@@ -117,14 +128,14 @@ body {
   background-color: white;
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 60px;
 }
 
 .contourmonclassement {
   background-color: white;
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 60px;
 }
 
 ul {

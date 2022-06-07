@@ -7,14 +7,23 @@
     <div class="linkhome">
     <p>Pour connaitre ton classement, rentre ton</p>
     </div>
-    <form action="/monclassement" method="post">
+    <form action="/monclassement" method="post" >
       <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
       <%= hidden_field_tag :users, @users %>
-      <input type="text" name="word" placeholder="Pseudo Insta complet">
-      <input type="submit" value="Entrer">
+      <div class="formhome">
+        <input type="text" name="word" placeholder="Pseudo Insta complet" class="form-control" >
+        <input type="submit" value="Entrer" class="btn btn-outline-light" >
+      </div>
     </form>
     <br>
     <br>
-    <a href="https://www.instagram.com/betstock_"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    <a href="https://www.instagram.com/betstock_"><i class="fa-brands fa-instagram fa-5x"></i></a>
   </div>
 </div>
+
+
+
+<%#  %>
+<%# " %>
+<%#  %>
+<%# class="form-control" %>
