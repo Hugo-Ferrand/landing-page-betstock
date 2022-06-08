@@ -100,6 +100,10 @@
     line-height: var(--bs-body-line-height);
     text-align: center;
   }
+  pre {
+    color: white;
+    font-family: var(--bs-body-font-family);
+  }
 }
 
 .linkretour {

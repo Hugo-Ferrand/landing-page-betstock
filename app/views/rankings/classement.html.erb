@@ -9,14 +9,23 @@
   <br>
   <div class="linkclassement">
     <br>
-    <p>Nombre de parieurs au <%= Date.today.strftime('%d/%m') %> : 200</p>
+    <u><p>Comment est fait le classement ?</p></u>
+    <p>Avec des points et un multiplicateur</p>
+    <p>1 pari gagné = 1 pt x (nb de jours entre date du pari et date de la réponse)</p>
+    <p>Ex: je gagne un pari publié le 10/05 et dont l'échéance est le 15/05 > je gagne 1 pt x (15-10)</p>
+    <br>
+    <br>
+    <u><p>Nombre de parieurs au <%= Date.today.strftime('%d/%m') %> : 250</p></u>
     <pre><strong> Rang</strong>      <strong>Nb points</strong>      <strong>Pseudo Insta</strong></pre>
+    <br>
+    <P>Le classement sera mis à jour le 11/06 ⏳</P>
   </div>
   <% @users.each do |user| %>
     <ul>
-        <%= user.ranking %>
-        <%= user.wins %>
-        <%= user.pseudo %>
+      <%# !!REMETTRE LES = POUR AFFICHER %>
+        <% user.ranking %>
+        <% user.wins %>
+        <% user.pseudo %>
     </ul>
   <% end %>
 </div>
