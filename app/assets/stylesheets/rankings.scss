@@ -3,7 +3,10 @@
 // // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .btn-calendrier {
-  color: white
+  color: white;
+  &:hover {
+    color: white;
+  }
 }
 
 .form-control {
