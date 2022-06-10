@@ -8,6 +8,9 @@ class RankingsController < ApplicationController
     @users = User.all
   end
 
+  def calendrier
+  end
+
   def monclassement
     @users = [
 
