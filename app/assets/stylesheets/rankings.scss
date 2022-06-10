@@ -49,7 +49,7 @@
 }
 
 .bannermonclassement {
-  height: 300vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   // display: flex;
@@ -118,7 +118,8 @@
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
-    text-align: center;
+    padding-left: 5px;
+    // text-align: center;
   }
   pre {
     color: white;
@@ -162,7 +163,7 @@
 
 
 .bannerclassement {
-  height: 1900vh;
+  height: 1650vh;
   background-size: cover;
   background-position: center;
   // display: flex;
@@ -173,7 +174,7 @@
 }
 
 .bannercalendrier {
-  height: 150vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   // display: flex;
@@ -215,7 +216,7 @@ body {
 }
 
 ul {
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 // hr {

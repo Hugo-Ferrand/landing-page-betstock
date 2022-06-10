@@ -15,17 +15,14 @@
     <p>Ex: je gagne un pari publié le 10/05 et dont l'échéance est le 15/05 > je gagne 1 pt x (15-10)</p>
     <br>
     <br>
-    <u><p>Nombre de parieurs au <%= Date.today.strftime('%d/%m') %> : 250</p></u>
+    <u><p>Nombre de parieurs au <%= Date.today.strftime('%d/%m') %> : 249</p></u>
     <pre><strong> Rang</strong>      <strong>Nb points</strong>      <strong>Pseudo Insta</strong></pre>
-    <br>
-    <P>Le classement sera mis à jour le 11/06 ⏳</P>
   </div>
   <% @users.each do |user| %>
     <ul>
-      <%# !!REMETTRE LES = POUR AFFICHER %>
-        <% user.ranking %>
-        <% user.wins %>
-        <% user.pseudo %>
+        <%= user.ranking %>
+        <%= user.wins %>
+        <%= user.pseudo %>
     </ul>
   <% end %>
 </div>
