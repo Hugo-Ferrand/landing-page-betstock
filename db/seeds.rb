@@ -3,7 +3,7 @@ User.destroy_all
 
 puts 'Creating Users'
 
-User.create!(ranking: '001________ ',wins: '410 ',pseudo: '___________pierre.cllt ')
+User.create!(ranking: '111________ ',wins: '410 ',pseudo: '___________pierre.cllt ')
 User.create!(ranking: '002________ ',wins: '360 ',pseudo: '___________jeannot_frrd ')
 User.create!(ranking: '003________ ',wins: '320 ',pseudo: '___________clement.fr ')
 User.create!(ranking: '004________ ',wins: '300 ',pseudo: '___________edouard_vdh ')
